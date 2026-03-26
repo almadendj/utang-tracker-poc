@@ -1,6 +1,6 @@
 import { Loan } from "../types";
 
-const PAID_BEFORE = "2026-03-27";
+const PAID_BEFORE = "2026-03-24";
 
 function makePayments(
   firstDue: string,
