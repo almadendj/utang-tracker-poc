@@ -1,6 +1,6 @@
 import { Loan } from "../types";
 
-const PAID_BEFORE = "2026-03-24";
+const PAID_BEFORE = "2026-04-01";
 
 function makePayments(
   firstDue: string,
@@ -8,6 +8,7 @@ function makePayments(
   amount: number,
   unit: "monthly" | "biweekly",
   loanId: string,
+  paidBefore: string = PAID_BEFORE,
 ) {
   const payments = [];
   const first = new Date(firstDue);
@@ -19,7 +20,7 @@ function makePayments(
       due.setDate(due.getDate() + i * 14);
     }
     const dueDate = due.toISOString().split("T")[0];
-    const isPaid = dueDate < PAID_BEFORE;
+    const isPaid = dueDate < paidBefore;
     payments.push({
       id: `${loanId}-p${i}`,
       dueDate,
@@ -38,35 +39,35 @@ export const defaultLoans: Loan[] = [
     lender: "FT Lending #1 (₱9,000)",
     totalAmount: Math.round(2377 * 7 * 100) / 100,
     monthlyPayment: 2377,
-    payments: makePayments("2026-01-23", 7, 2377, "biweekly", "ft-1"),
+    payments: makePayments("2026-01-23", 7, 2377, "biweekly", "ft-1", "9999-12-31"),
   },
   {
     id: "ft-2",
     lender: "FT Lending #2 (₱4,200)",
     totalAmount: Math.round(1522 * 5 * 100) / 100,
     monthlyPayment: 1522,
-    payments: makePayments("2026-02-12", 5, 1522, "biweekly", "ft-2"),
+    payments: makePayments("2026-02-12", 5, 1522, "biweekly", "ft-2", "9999-12-31"),
   },
   {
     id: "ft-3",
     lender: "FT Lending #3 (₱3,100)",
     totalAmount: Math.round(1169 * 5 * 100) / 100,
     monthlyPayment: 1169,
-    payments: makePayments("2026-02-24", 5, 1169, "biweekly", "ft-3"),
+    payments: makePayments("2026-02-24", 5, 1169, "biweekly", "ft-3", "9999-12-31"),
   },
   {
     id: "ft-4",
     lender: "FT Lending #4 (₱2,850)",
     totalAmount: Math.round(1852 * 3 * 100) / 100,
     monthlyPayment: 1852,
-    payments: makePayments("2026-03-20", 3, 1852, "biweekly", "ft-4"),
+    payments: makePayments("2026-03-20", 3, 1852, "biweekly", "ft-4", "9999-12-31"),
   },
   {
     id: "ft-5",
     lender: "FT Lending #5 (₱2,300)",
     totalAmount: Math.round(1546 * 3 * 100) / 100,
     monthlyPayment: 1546,
-    payments: makePayments("2026-03-27", 3, 1546, "biweekly", "ft-5"),
+    payments: makePayments("2026-03-27", 3, 1546, "biweekly", "ft-5", "9999-12-31"),
   },
 
   // ── Juanhand ─────────────────────────────────────────────────────────────
@@ -193,6 +194,6 @@ export const defaultLoans: Loan[] = [
     lender: "HomeCredit (₱30,000)",
     totalAmount: Math.round(4458 * 9 * 100) / 100,
     monthlyPayment: 4458,
-    payments: makePayments("2026-03-25", 9, 4458, "monthly", "hc-1"),
+    payments: makePayments("2026-03-25", 9, 4458, "monthly", "hc-1", "2026-04-26"),
   },
 ];
