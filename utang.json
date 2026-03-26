@@ -1,0 +1,192 @@
+[
+  {
+    "provider": "FT Lending",
+    "principal": 9000,
+    "due_amount": 2377,
+    "term_count": 7,
+    "term_unit": "biweekly",
+    "start_date": "2026-01-08",
+    "first_due_day": "2026-01-23"
+  },
+  {
+    "provider": "FT Lending",
+    "principal": 4200,
+    "due_amount": 1522,
+    "term_count": 5,
+    "term_unit": "biweekly",
+    "start_date": "2026-01-28",
+    "first_due_day": "2026-02-12"
+  },
+  {
+    "provider": "FT Lending",
+    "principal": 3100,
+    "due_amount": 1169,
+    "term_count": 5,
+    "term_unit": "biweekly",
+    "start_date": "2026-02-09",
+    "first_due_day": "2026-02-24"
+  },
+  {
+    "provider": "FT Lending",
+    "principal": 2850,
+    "due_amount": 1852,
+    "term_count": 3,
+    "term_unit": "biweekly",
+    "start_date": "2026-03-05",
+    "first_due_day": "2026-03-20"
+  },
+  {
+    "provider": "FT Lending",
+    "principal": 2300,
+    "due_amount": 1546,
+    "term_count": 3,
+    "term_unit": "biweekly",
+    "start_date": "2026-03-11",
+    "first_due_day": "2026-03-27"
+  },
+  {
+    "provider": "Juanhand",
+    "principal": 15986,
+    "due_amount": 4210,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2025-11-26",
+    "first_due_day": "2025-12-26"
+  },
+  {
+    "provider": "Juanhand",
+    "principal": 3000,
+    "due_amount": 1049,
+    "term_count": 4,
+    "term_unit": "monthly",
+    "start_date": "2025-12-22",
+    "first_due_day": "2026-01-22"
+  },
+  {
+    "provider": "Juanhand",
+    "principal": 8342,
+    "due_amount": 2920,
+    "term_count": 4,
+    "term_unit": "monthly",
+    "start_date": "2026-01-10",
+    "first_due_day": "2026-02-10"
+  },
+  {
+    "provider": "Juanhand",
+    "principal": 6917,
+    "due_amount": 1821,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2026-01-26",
+    "first_due_day": "2026-02-26"
+  },
+  {
+    "provider": "Juanhand",
+    "principal": 2000,
+    "due_amount": 699,
+    "term_count": 4,
+    "term_unit": "monthly",
+    "start_date": "2026-02-01",
+    "first_due_day": "2026-03-01"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 7200,
+    "due_amount": 1570.78,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2025-09-24",
+    "first_due_day": "2025-10-24"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 9800,
+    "due_amount": 2138.01,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2025-11-08",
+    "first_due_day": "2025-12-08"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 4000,
+    "due_amount": 872.66,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2025-11-26",
+    "first_due_day": "2025-12-26"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 5000,
+    "due_amount": 1090.82,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2025-12-16",
+    "first_due_day": "2026-01-16"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 7100,
+    "due_amount": 1548.97,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2026-01-07",
+    "first_due_day": "2026-02-07"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 2900,
+    "due_amount": 632.68,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2026-01-26",
+    "first_due_day": "2026-02-26"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 7600,
+    "due_amount": 1658.05,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2026-02-07",
+    "first_due_day": "2026-03-07"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 3500,
+    "due_amount": 1346.92,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2026-02-27",
+    "first_due_day": "2026-03-27"
+  },
+  {
+    "provider": "SLoan",
+    "principal": 3800,
+    "due_amount": 829.03,
+    "term_count": 6,
+    "term_unit": "monthly",
+    "start_date": "2026-03-09",
+    "first_due_day": "2026-04-09"
+  },
+  {
+    "provider": "SpayLater",
+    "due_amount": 1178.36,
+    "first_due_day": "2026-04-05"
+  },
+  {
+    "provider": "SpayLater",
+    "due_amount": 227.59,
+    "first_due_day": "2026-05-05"
+  },
+  {
+    "provider": "HomeCredit",
+    "principal": 30000,
+    "due_amount": 4458,
+    "term_count": 9,
+    "term_unit": "monthly",
+    "start_date": "2026-02-24",
+    "first_due_day": "2026-03-25"
+  }
+]
